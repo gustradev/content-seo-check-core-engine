@@ -1,0 +1,28 @@
+# Python virtual environments
+.venv_312/
+venv/
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+
+# VS Code / IDE files
+.vscode/
+.idea/
+
+# Data files (optional, if you want to keep them private)
+# data/

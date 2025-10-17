@@ -1,0 +1,44 @@
+🧭 Step-by-step setup
+
+Go to your backend project directory
+Example:
+
+cd X:\Website\content-seo-check-core-engine
+
+
+Check if it already has a remote
+
+git remote -v
+
+
+If you see a remote that’s not this repo, let’s replace it 👇
+
+Set or replace the remote
+
+git remote set-url origin https://github.com/gustradev/content-seo-check-core-engine.git
+
+
+Or, if there’s no remote yet:
+
+git remote add origin https://github.com/gustradev/content-seo-check-core-engine.git
+
+
+Add, commit, and push your code
+
+git add .
+git commit -m "Initial commit for Content SEO Check Core Engine"
+git branch -M main
+git push -u origin main
+
+✅ Verify it worked
+git remote -v
+
+
+You should see:
+
+origin  https://github.com/gustradev/content-seo-check-core-engine.git (fetch)
+origin  https://github.com/gustradev/content-seo-check-core-engine.git (push)
+
+
+Then open:
+👉 https://github.com/gustradev/content-seo-check-core-engine

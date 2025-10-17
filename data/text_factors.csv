@@ -1,0 +1,201 @@
+id,name,mode,description,weight
+001,Word Count,text,Total number of words in the text,5
+002,Character Count,text,Total number of characters,3
+003,Sentence Count,text,Counts number of sentences,3
+004,Paragraph Count,text,Counts number of paragraphs,3
+005,Average Sentence Length,text,Calculates average sentence length,4
+006,Average Word Length,text,Calculates average word length,3
+007,Keyword Density,text,Primary keyword density percentage,5
+008,Secondary Keyword Density,text,Secondary keyword density,4
+009,Stopword Ratio,text,Ratio of stopwords to total words,3
+010,Flesch Reading Ease,text,Readability score using Flesch formula,5
+011,Flesch-Kincaid Grade,text,Readability grade level,5
+012,Gunning Fog Index,text,Readability estimation,4
+013,Passive Voice Usage,text,Percentage of sentences in passive voice,4
+014,Adverb Count,text,Counts adverbs in text,2
+015,Pronoun Usage,text,Counts pronouns for clarity,3
+016,Transition Words Usage,text,Percentage of transition words,3
+017,Subheading Count,text,Counts H2/H3 in content,4
+018,H1 Presence,text,Checks if H1 heading exists,5
+019,H2 Presence,text,Checks if H2 headings exist,4
+020,Meta Title Length,text,Title length optimization,4
+021,Meta Description Length,text,Length of meta description,4
+022,Keyword in Title,text,Checks if primary keyword in title,5
+023,Keyword in Subheadings,text,Primary keyword in subheadings,5
+024,Keyword in First 100 Words,text,Keyword usage at start,5
+025,Keyword in Last 100 Words,text,Keyword usage at end,3
+026,Internal Links Count,text,Number of internal links in text,4
+027,External Links Count,text,Number of external links in text,4
+028,Anchor Text Diversity,text,Diversity of anchor texts,3
+029,Sentence Variety,text,Variety in sentence structure,4
+030,Paragraph Length,text,Average paragraph length,3
+031,Readability Level,text,Estimated reading grade,5
+032,Content Originality,text,Detects duplicate content,5
+033,Plagiarism Check,text,Flag possible plagiarism,5
+034,Keyword Prominence,text,Position of keyword in text,4
+035,Keyword Distribution,text,How evenly keywords appear,4
+036,Long-tail Keywords,text,Presence of long-tail keywords,4
+037,LSI Keywords,text,Presence of semantically related keywords,4
+038,Semantic Relevance,text,Text relevance to topic,5
+039,Coherence Score,text,Logical flow of ideas,4
+040,Clarity Score,text,Ease of understanding,4
+041,Spelling Errors,text,Counts spelling mistakes,5
+042,Grammar Errors,text,Counts grammar mistakes,5
+043,Punctuation Accuracy,text,Checks punctuation usage,3
+044,Readability Sentences,text,Sentence complexity,4
+045,Stopword Optimization,text,Stopword management for SEO,3
+046,Content Gap,text,Detects missing subtopics,4
+047,Content Redundancy,text,Detect repeated points,3
+048,Heading Hierarchy,text,H1→H2→H3 proper structure,4
+049,Subheading Length,text,Checks subheading length,3
+050,Sentence Simplicity,text,Percentage of simple sentences,3
+051,Active Voice Sentences,text,Percentage of active voice,4
+052,Complex Words Usage,text,Percentage of complex words,3
+053,Conjunctions Usage,text,Percentage of conjunctions,2
+054,Numeric Data Usage,text,Counts numbers in text,2
+055,Percentage Unique Words,text,Ratio of unique words,4
+056,Stopword Removal,text,Text without unnecessary stopwords,3
+057,Keyword in ALT,text,Checks keywords in image alt text,4
+058,Keyword in URL,text,Keyword presence in suggested URL,3
+059,Keyword in Meta,text,Keyword presence in meta tags,4
+060,Text Sentiment Score,text,Overall sentiment of text,4
+061,Positive Sentiment,text,Positive tone percentage,3
+062,Negative Sentiment,text,Negative tone percentage,3
+063,Neutral Sentiment,text,Neutral tone percentage,3
+064,Emotional Words Usage,text,Presence of emotional words,3
+065,Power Words Usage,text,Presence of power words,3
+066,Call-to-Action Presence,text,Detects CTA in text,4
+067,Content Length Adequacy,text,Length meets topic needs,4
+068,Topic Coverage,text,All subtopics included,4
+069,Content Depth,text,Depth of explanation,4
+070,Content Freshness,text,How up-to-date the content is,5
+071,Contextual Keywords,text,Contextual keyword presence,4
+072,Internal Linking Context,text,Internal link relevance,4
+073,Outbound Linking Context,text,Outbound link relevance,4
+074,Anchor Text Context,text,Anchor text relevance,3
+075,Keyword Clustering,text,Checks related keyword clusters,4
+076,Latent Semantic Indexing,text,Presence of LSI terms,4
+077,Content Readability,text,Overall readability score,5
+078,SEO Score Placeholder,text,Calculates SEO score placeholder,5
+079,GEO Score Placeholder,text,Calculates GEO score placeholder,5
+080,Hybrid Score Placeholder,text,Combines SEO+GEO score placeholder,5
+081,Content Tone,text,Tone of writing (formal/informal),3
+082,Content Style,text,Style consistency (e.g., professional),3
+083,Sentence Variation,text,Variety in sentence structure,4
+084,Keyword Stuffing,text,Detect overuse of keywords,5
+085,Stopword Density,text,Stopword ratio relevance,3
+086,Content Uniqueness Check,text,Plagiarism & originality check,5
+087,Internal Link Anchor Diversity,text,Checks anchor variety,3
+088,Readability Per Paragraph,text,Checks readability per paragraph,4
+089,Keyword in First Sentence,text,Keyword used in opening sentence,5
+090,Keyword in Last Sentence,text,Keyword used in conclusion,4
+091,Passive-to-Active Ratio,text,Ratio passive vs active sentences,4
+092,Text Complexity Score,text,Advanced complexity scoring,4
+093,Readability Transition,text,Presence of transition phrases,4
+094,Keyword Repetition,text,Counts repeated keywords,4
+095,Content Outline Score,text,Does text follow logical outline,4
+096,Section Clarity,text,Section readability,4
+097,Subtopic Coverage,text,Coverage of all subtopics,4
+098,Content Formatting,text,Checks use of lists, bold, italics, etc.,3
+099,Content Accessibility,text,Readable by screen readers,4
+100,Link Presence,text,Presence of links in text,3
+101,Content Sentiment Polarity,text,Measures overall sentiment polarity,4
+102,Content Sentiment Intensity,text,Measures sentiment intensity,4
+103,Named Entities,text,Detect named entities in text,4
+104,Entity Relevance,text,Check relevance of entities to topic,4
+105,Keyword Co-occurrence,text,How often keywords appear together,4
+106,Keyword Contextual Relevance,text,Keyword context analysis,5
+107,Keyword Density by Section,text,Keyword distribution per section,4
+108,Paragraph Topic Score,text,Relevance of paragraph to topic,4
+109,Semantic Similarity Score,text,Similarity to reference topic,5
+110,LSI Density,text,Density of semantically related keywords,4
+111,Keyword Variation,text,Variation of keyword forms,4
+112,Subtopic Keyword Coverage,text,Check keywords for each subtopic,4
+113,Paragraph Transition Smoothness,text,Evaluates transition between paragraphs,4
+114,Sentence Transition Smoothness,text,Evaluates transition between sentences,4
+115,Topic Sentence Clarity,text,Clarity of topic sentences,4
+116,Summary Presence,text,Presence of summary/conclusion,4
+117,Title-Content Relevance,text,Relevance of content to title,5
+118,Meta-Description Relevance,text,Content relevance to meta description,5
+119,Header-Content Relevance,text,Check H2/H3 relevance to section content,4
+120,Content Originality Check,text,Advanced plagiarism detection,5
+121,Content Redundancy Check,text,Duplicate phrases detection,4
+122,Content Brevity,text,Conciseness of content,3
+123,Sentence Complexity,text,Percentage of complex sentences,4
+124,Sentence Simplicity,text,Percentage of simple sentences,3
+125,Paragraph Coherence,text,Paragraph logical flow,4
+126,Paragraph Length Uniformity,text,Uniformity of paragraph lengths,3
+127,Readability Per Sentence,text,Sentence-level readability,4
+128,Keyword in Heading,text,Keyword presence in headings,5
+129,Keyword in Subheading,text,Keyword presence in subheadings,5
+130,Call-to-Action Presence,text,Detect CTAs in text,4
+131,CTA Effectiveness,text,Evaluate CTA clarity and relevance,4
+132,Content Engagement Score,text,Estimate engagement potential,4
+133,Content Value Score,text,Estimate informative value,4
+134,Semantic Coherence Score,text,Semantic consistency of content,5
+135,Core Topic Coverage,text,Check coverage of core topic points,5
+136,Secondary Topic Coverage,text,Check coverage of secondary topics,4
+137,Internal Link Context,text,Internal link relevance to context,4
+138,Outbound Link Context,text,Outbound link relevance,4
+139,Anchor Text Context,text,Anchor text contextual relevance,4
+140,Content Tone Consistency,text,Consistency in tone throughout text,3
+141,Content Style Consistency,text,Consistency in style throughout text,3
+142,Complex Word Ratio,text,Ratio of complex words,3
+143,Simple Word Ratio,text,Ratio of simple words,3
+144,Stopword Balance,text,Balance of stopwords for readability,3
+145,Positive Language,text,Positive language usage,3
+146,Negative Language,text,Negative language usage,3
+147,Neutral Language,text,Neutral language usage,3
+148,Power Words,text,Usage of persuasive words,4
+149,Emotional Words,text,Usage of emotional words,4
+150,Question Usage,text,Number of questions for engagement,3
+151,Exclamation Usage,text,Number of exclamations,2
+152,Passive-to-Active Ratio,text,Ratio passive vs active sentences,4
+153,Word Variety,text,Lexical diversity,4
+154,Repeated Phrases,text,Detect repeated phrases,4
+155,Content Hierarchy,text,Logical structure of headings,4
+156,Text Alignment,text,Proper alignment and spacing,3
+157,Formatting Consistency,text,Consistent use of bold, italics, lists, etc.,3
+158,Content Scannability,text,Ease to scan content (headings, bullets),4
+159,Content Accessibility,text,Readability for screen readers,4
+160,Readability Grade Level,text,Targeted reading grade level,4
+161,Paragraph Sentiment,text,Sentiment score per paragraph,4
+162,Sentence Sentiment,text,Sentiment score per sentence,4
+163,Entity Coverage,text,Coverage of relevant named entities,4
+164,Topic Density,text,Density of core topic terms,5
+165,Subtopic Density,text,Density of subtopic terms,4
+166,Keyword Prominence Score,text,Position-based keyword prominence,5
+167,Keyword Placement Score,text,Placement in headings, first paragraph, etc.,5
+168,Content Freshness,text,Recency of content topics,5
+169,Internal Link Count,text,Number of internal links,4
+170,Outbound Link Count,text,Number of outbound links,4
+171,Anchor Text Quality,text,Quality of anchor text for SEO,4
+172,Link Diversity,text,Diversity of linked domains,3
+173,Content Readability Score,text,Aggregate readability score,5
+174,Sentence Fluency,text,Sentence flow smoothness,4
+175,Paragraph Fluency,text,Paragraph flow smoothness,4
+176,Content Clarity Score,text,Overall clarity assessment,5
+177,Engagement Potential,text,Potential for user engagement,4
+178,Call-to-Action Effectiveness,text,CTA effectiveness assessment,4
+179,SEO Score Placeholder,text,SEO score placeholder,5
+180,GEO Score Placeholder,text,GEO score placeholder,5
+181,Hybrid Score Placeholder,text,Hybrid SEO+GEO score,5
+182,Keyword Repetition Pattern,text,Check repeated keyword sequences,4
+183,Keyword Gap Analysis,text,Missing keywords compared to topic,4
+184,Content Optimization Suggestions,text,Automated suggestions,4
+185,Content Structure Score,text,Structure completeness,4
+186,Header Coverage,text,Presence of H2/H3 for all sections,4
+187,Content Flow Score,text,Flow between sections,4
+188,Sentence Transition Score,text,Sentence transition quality,4
+189,Paragraph Transition Score,text,Paragraph transition quality,4
+190,Topic Consistency,text,Consistency in topic coverage,5
+191,Subtopic Consistency,text,Consistency in subtopic coverage,4
+192,Contextual Keyword Relevance,text,Relevance of keywords to context,5
+193,Semantic Keyword Coverage,text,Coverage of semantic keywords,5
+194,Engagement Phrases,text,Presence of engagement-focused phrases,3
+195,Content Persuasiveness,text,Persuasiveness of writing,4
+196,Readability Improvement,text,Suggestions for readability improvements,4
+197,SEO Optimization Potential,text,Potential SEO improvements,5
+198,GEO Optimization Potential,text,Potential GEO improvements,5
+199,Hybrid Optimization Score,text,Combined SEO+GEO optimization score,5
+200,Content Recommendation Placeholder,text,Automated recommendations placeholder,5

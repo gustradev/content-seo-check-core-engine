@@ -1,0 +1,22 @@
+# Web scraping & HTML parsing
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# HTTP requests (if calling external URLs)
+requests==2.31.0
+
+# Optional: For text analysis, tokenization, and NLP
+nltk==3.8.1
+
+# Optional: For advanced semantic analysis
+spacy
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Optional: Pretty-print JSON results (for development)
+rich==13.5.2
+flask
+flask-cors
+requests
+beautifulsoup4

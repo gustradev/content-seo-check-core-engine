@@ -1,0 +1,201 @@
+id,name,mode,description,weight
+001,Title Tag Length,url,Checks <title> length for SEO,5
+002,Meta Description,url,Checks <meta name="description">,5
+003,H1 Tag Presence,url,Ensures H1 exists,5
+004,H2/H3 Structure,url,Checks subheadings structure,4
+005,Canonical Tag,url,Checks if canonical URL is set,3
+006,Robots Meta Tag,url,Checks for robots meta tag,3
+007,Internal Links Count,url,Counts internal links on the page,4
+008,External Links Count,url,Counts outbound links,4
+009,Image Alt Text,url,Checks that all images have alt text,4
+010,Page Load Speed,url,Measures page load time (placeholder),5
+011,Mobile-Friendly,url,Checks mobile responsiveness,5
+012,HTTPS Usage,url,Checks if page uses HTTPS,5
+013,Structured Data,url,Detects schema.org markup,4
+014,Canonical URL Match,url,Compares canonical vs current URL,4
+015,Word Count,url,Total words on page,3
+016,Text-to-HTML Ratio,url,Ratio of visible text to HTML code,3
+017,Keyword in URL,url,Checks if primary keyword is in URL,4
+018,Backlink Count,url,Number of backlinks (placeholder),3
+019,Social Share Buttons,url,Checks if social share buttons exist,2
+020,Robots.txt Check,url,Checks if robots.txt is present,3
+021,Meta Robots Noindex,url,Checks meta robots for noindex,3
+022,Meta Robots Nofollow,url,Checks meta robots for nofollow,3
+023,Open Graph Title,url,Checks OG title meta tag,2
+024,Open Graph Description,url,Checks OG description meta tag,2
+025,Twitter Card,url,Checks Twitter card meta tag,2
+026,Viewport Meta,url,Checks viewport meta tag for mobile,4
+027,Favicon Presence,url,Detects favicon existence,2
+028,Canonical Redirect,url,Checks if page redirects to canonical,4
+029,Broken Links Count,url,Counts broken links on the page,5
+030,Anchor Text Optimization,url,Checks descriptive anchor texts,4
+031,Image File Sizes,url,Checks if images are optimized for web,3
+032,Lazy Loading Images,url,Checks if lazy loading is used,3
+033,Video Tags Optimization,url,Checks if video elements have titles/alt,2
+034,Alt Attribute Keywords,url,Checks if alt attributes include keywords,3
+035,Internal Link Depth,url,Measures average clicks to important pages,4
+036,HTTPS Mixed Content,url,Checks for mixed content on HTTPS pages,5
+037,Security Headers,url,Checks for headers like HSTS, X-Frame-Options,5
+038,Canonical Duplicate,url,Checks duplicate canonical URLs,4
+039,Page Redirects,url,Counts number of redirects,3
+040,JavaScript Errors,url,Detects JS console errors,3
+041,Content Freshness,url,Checks for recently updated content,4
+042,URL Length,url,Checks if URL length is SEO-friendly,4
+043,Keyword in Title,url,Primary keyword in title tag,5
+044,Keyword in Meta Description,url,Primary keyword in meta description,5
+045,Keyword in H1,url,Primary keyword appears in H1,5
+046,Keyword in H2,H3,url,Primary keyword appears in subheadings,4
+047,Content Uniqueness,url,Detect duplicate content issues,5
+048,Readability Score,url,Estimates page readability,4
+049,Schema Breadcrumb,url,Checks if breadcrumb schema is present,3
+050,Schema Article,url,Checks if article schema is present,3
+051,Schema Product,url,Checks product schema (if applicable),3
+052,Schema FAQ,url,Checks FAQ schema presence,3
+053,Schema Review,url,Checks review schema presence,3
+054,Structured Data Errors,url,Detects errors in structured data,4
+055,AMP Version,url,Checks if AMP is available,3
+056,Canonical vs Hreflang,url,Checks consistency with hreflang tags,3
+057,Hreflang Tags,url,Checks for internationalization hreflang tags,4
+058,Pagination Links,url,Checks rel=prev/next tags,3
+059,Pagination Accessibility,url,Checks pagination usability,3
+060,Breadcrumb Links,url,Checks breadcrumb navigation links,3
+061,Header Tag Hierarchy,url,Checks H1→H2→H3 order,4
+062,Internal Link Anchor Diversity,url,Checks diversity of internal link anchors,3
+063,Outbound Link Anchor Diversity,url,Checks diversity of outbound link anchors,3
+064,URL Case Consistency,url,Checks lowercase URLs,2
+065,Query Parameter Usage,url,Checks unnecessary query parameters,3
+066,Redirect Chain Length,url,Measures redirect chains,4
+067,Duplicate Content,url,Checks for duplicate content on same site,5
+068,Meta Keywords,url,Checks meta keywords usage (legacy),2
+069,Canonical Self-reference,url,Checks if canonical points to self,4
+070,Sitemap.xml Presence,url,Checks if sitemap.xml exists,4
+071,Robots.txt Crawl-delay,url,Checks crawl-delay in robots.txt,2
+072,Robots.txt Sitemap,url,Checks sitemap URL in robots.txt,3
+073,Google Analytics Script,url,Checks GA or analytics implementation,3
+074,Facebook Pixel,url,Checks if Facebook Pixel exists,2
+075,Twitter Pixel,url,Checks if Twitter Pixel exists,2
+076,LinkedIn Insight,url,Checks LinkedIn Insight tag,2
+077,Headings Count,url,Counts H1/H2/H3 tags,3
+078,Images Count,url,Counts total images,2
+079,Videos Count,url,Counts video elements,2
+080,Tables Count,url,Counts tables on page,2
+081,Form Tags Count,url,Counts forms on page,2
+082,Inline CSS Usage,url,Detect inline CSS,2
+083,Inline JS Usage,url,Detect inline JS,2
+084,External CSS Files,url,Counts linked CSS files,2
+085,External JS Files,url,Counts linked JS files,2
+086,Favicons Multiple,url,Checks for multiple favicon declarations,2
+087,Meta Charset,url,Checks if charset meta is defined,3
+088,Viewport Scaling,url,Checks viewport scaling settings,3
+089,Responsive Images,url,Checks srcset usage,3
+090,Image Dimensions,url,Checks image width/height attributes,2
+091,Image Optimization Score,url,Estimates image optimization,3
+092,Link Titles,url,Checks if anchor tags have title attributes,2
+093,Link Rel Nofollow,url,Checks rel=nofollow on outbound links,3
+094,Link Rel Sponsored,url,Checks rel=sponsored,2
+095,Link Rel UGC,url,Checks rel=ugc,2
+096,Meta Refresh,url,Checks meta refresh tag usage,2
+097,Page Load Size,url,Measures total page weight,4
+098,Server Response Time,url,Measures server response time,4
+099,Cache-Control Header,url,Checks caching headers,4
+100,ETag Header,url,Checks ETag headers,4
+101,Canonical Consistency,url,Checks canonical across similar pages,4
+102,Pagination Canonical,url,Checks canonical on paginated pages,3
+103,Content Language,url,Detects page language tag,3
+104,Charset UTF-8,url,Ensures UTF-8 charset is used,3
+105,Viewport Orientation,url,Checks for orientation settings,2
+106,Mobile Tap Targets,url,Checks button & link sizes on mobile,4
+107,Font Size Accessibility,url,Checks minimum font sizes,3
+108,Contrast Ratio,url,Checks text/background contrast,4
+109,ARIA Roles,url,Checks ARIA roles for accessibility,3
+110,Alt Text Meaningful,url,Ensures alt text conveys meaning,4
+111,Lazy Loading iframe,url,Checks lazy loading for iframes,2
+112,SVG Images,url,Checks usage and optimization of SVGs,2
+113,Inline Styles Count,url,Counts inline style attributes,2
+114,External Stylesheets Count,url,Counts linked stylesheets,2
+115,Inline Scripts Count,url,Counts inline scripts,2
+116,External Scripts Count,url,Counts external JS files,2
+117,Viewport Zoom Control,url,Checks if user can zoom,2
+118,HTML Validation Errors,url,Detects HTML validation issues,3
+119,CSS Validation Errors,url,Detects CSS validation issues,3
+120,JavaScript Validation Errors,url,Detects JS errors via linting,3
+121,Content Hierarchy,url,Checks logical heading structure,4
+122,Empty H Tags,url,Detects empty heading tags,3
+123,Duplicate H1 Tags,url,Detects multiple H1 tags,4
+124,Duplicate Title Tags,url,Detects duplicate page titles,4
+125,Duplicate Meta Descriptions,url,Detects duplicate meta descriptions,4
+126,Multiple Canonical Tags,url,Detects multiple canonicals,4
+127,Meta Robots Conflicts,url,Detects conflicting robots directives,4
+128,Image Missing Alt,url,Counts images missing alt attributes,4
+129,Image Missing Dimensions,url,Counts images missing width/height,3
+130,Large Images,url,Detects oversized images,4
+131,Video Missing Title,url,Detects video elements missing titles,3
+132,Video Missing Caption,url,Detects missing captions/subtitles,3
+133,Link Target Blank,url,Checks links opening in new tab,3
+134,Link rel Noopener,url,Checks rel=noopener for target=_blank,3
+135,Link rel Noreferrer,url,Checks rel=noreferrer for outbound links,3
+136,Anchor Text Length,url,Checks overly long anchor texts,2
+137,Anchor Text Keyword,url,Checks keyword usage in anchors,3
+138,Internal Linking Depth,url,Average depth of internal links,4
+139,External Linking Quality,url,Placeholder for link quality,3
+140,External Linking Quantity,url,Counts external links,3
+141,Heading Keyword Relevance,url,Checks keyword relevance in headings,4
+142,Body Keyword Relevance,url,Checks primary keyword presence,4
+143,Content Freshness Score,url,Calculates page content recency,4
+144,Last Modified Header,url,Checks HTTP last-modified header,3
+145,ETag Consistency,url,Checks ETag header consistency,3
+146,Cache-Control Max-age,url,Checks max-age header,3
+147,Cache-Control Public,url,Checks public/private cache,2
+148,Expires Header,url,Checks expiration header,2
+149,X-Frame-Options Header,url,Checks clickjacking protection,5
+150,X-Content-Type-Options,url,Prevents MIME-type sniffing,5
+151,Strict-Transport-Security,url,HSTS header check,5
+152,Content-Security-Policy Header,url,CSP header check,5
+153,Referrer-Policy Header,url,Referrer header security,4
+154,Feature-Policy Header,url,Feature policy / Permissions-Policy header,3
+155,Cross-Origin Resource Sharing,url,CORS header check,3
+156,Robots.txt Crawl Access,url,Checks robots.txt permissions,3
+157,Sitemap Index,url,Detects sitemap index file,3
+158,Sitemap URLs Count,url,Counts URLs in sitemap,3
+159,Robots.txt Sitemap Match,url,Compares sitemap in robots.txt,3
+160,Server Response Code,url,Checks HTTP response codes,4
+161,Redirect Loops,url,Detects infinite redirects,5
+162,Redirect Chains Length,url,Counts redirects before final page,4
+163,Server Location,url,Checks server geolocation (GEO),4
+164,TLS Certificate Valid,url,Checks HTTPS cert validity,5
+165,TLS Expiration,url,Checks certificate expiry date,4
+166,TLS Strong Cipher,url,Checks cipher strength,4
+167,TLS Protocol Version,url,Checks TLS version (1.2/1.3),4
+168,Page Speed Score,url,Placeholder for Lighthouse score,5
+169,First Contentful Paint,url,Performance metric,5
+170,Largest Contentful Paint,url,Performance metric,5
+171,Cumulative Layout Shift,url,Performance metric,5
+172,Time to Interactive,url,Performance metric,5
+173,Total Blocking Time,url,Performance metric,5
+174,DOM Size,url,Large DOM tree detection,3
+175,JavaScript Payload,url,Detects large JS files,3
+176,CSS Payload,url,Detects large CSS files,3
+177,Image Payload,url,Detects large image files,3
+178,Third-Party Scripts,url,Detects third-party scripts count,3
+179,Tracking Scripts,url,Counts analytics/marketing scripts,3
+180,Social Meta Tags,url,Checks meta tags for FB/Twitter/LinkedIn,3
+181,Open Graph Images,url,Checks OG images exist and size,3
+182,Twitter Card Images,url,Checks Twitter card images,3
+183,LinkedIn Meta Tags,url,Checks LinkedIn tags,3
+184,Favicon Accessibility,url,Favicon visible in browser/tab,2
+185,Canonical Hreflang Conflict,url,Checks canonical vs hreflang conflicts,4
+186,Hreflang Multiple,url,Detects multiple hreflang tags,3
+187,Hreflang Consistency,url,Checks hreflang values are consistent,4
+188,Local Business Schema,url,Detects local business schema (GEO),5
+189,Geo Meta Tags,url,Detects geo meta tags (latitude/longitude),5
+190,Local Citations,url,Placeholder for local SEO citations,4
+191,Structured Data Validation,url,Checks structured data via schema.org,4
+192,Accessibility Landmarks,url,Detects ARIA landmarks usage,3
+193,Keyboard Navigation,url,Checks if site is navigable via keyboard,4
+194,Focus Outline,url,Detects focus outlines for interactive elements,3
+195,Contrast Ratio WCAG,url,Checks WCAG contrast ratio compliance,4
+196,ARIA Live Regions,url,Detects ARIA live regions usage,3
+197,ARIA Labels,url,Detects aria-label attributes,3
+198,SEO Score Placeholder,url,Calculates overall SEO score placeholder,5
+199,GEO Score Placeholder,url,Calculates overall GEO score placeholder,5
+200,Hybrid Score Placeholder,url,Combines SEO+GEO score placeholder,5
