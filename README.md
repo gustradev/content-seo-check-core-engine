@@ -9,32 +9,34 @@ Each mode uses **factor modules**, where each module represents a single analysi
 
 ---
 
-### Project Structure
----
-content-seo-check-core-engine/
-├── core/
-│ ├── init.py
-│ ├── analyzer.py # Main dynamic analysis engine
-│ └── modules/
-│ ├── init.py
-│ ├── text_mode/
-│ │ ├── init.py
-│ │ ├── factor_001.py
-│ │ └── ...
-│ └── url_mode/
-│ ├── init.py
-│ ├── factor_001.py
-│ └── ...
-├── data/
-│ ├── text_factors.csv # Definitions for text-mode factors
-│ └── url_factors.csv # Definitions for URL-mode factors
-├── requirements.txt
-└── README.md
----
+#### Project Structure Rules
+```
+content-seo-check-core-engine/          # Root directory of the Core Engine
+├── core/                               # Main engine code
+│   ├── __init__.py                      # Makes 'core' a Python package
+│   ├── analyzer.py                      # Main dynamic analysis engine, loads factor modules
+│   └── modules/                         # Folder containing all analysis factor modules
+│       ├── __init__.py                  # Makes 'modules' a Python package
+│       ├── text_mode/                   # Factors for analyzing raw text content
+│       │   ├── __init__.py              # Python package initializer
+│       │   ├── factor_001.py            # Example factor module
+│       │   └── ...                       # Additional text-mode factors
+│       └── url_mode/                    # Factors for analyzing webpage HTML
+│           ├── __init__.py              # Python package initializer
+│           ├── factor_001.py            # Example factor module
+│           └── ...                       # Additional URL-mode factors
+├── data/                                # CSV definitions for factors
+│   ├── text_factors.csv                 # Factor definitions for text-mode analysis
+│   └── url_factors.csv                  # Factor definitions for URL-mode analysis
+├── requirements.txt                      # Python dependencies for the project
+└── README.md                             # Project documentation
+
+```
+
 ---
 
-## Features
-
+#### Features
+---
 - Dynamically loads **factor modules** for analysis  
 - Supports **200+ factors** for SEO + GEO auditing  
 - Two analysis modes:
@@ -46,7 +48,7 @@ content-seo-check-core-engine/
 ---
 
 ## Installation
-
+---
 ```bash
 git clone https://github.com/gustradev/content-seo-check-core-engine.git
 cd content-seo-check-core-engine
@@ -58,9 +60,10 @@ venv\Scripts\activate      # Windows
 
 # Install dependencies
 pip install -r requirements.txt
-Usage
-python
-Copy code
+```
+
+## Usage
+```python
 from core.analyzer import run_analysis
 
 # Text Mode
@@ -74,33 +77,34 @@ results = run_analysis(html=html_content, mode="url")
 # Each result is a list of factor dictionaries
 for factor in results:
     print(f"{factor['factor']}: {factor['score']}")
-Adding New Factors
-Create a new Python file in the appropriate folder (text_mode or url_mode)
+```
 
-Define a check() function that accepts content (text) or html (webpage)
-
-Return a dictionary:
-
-python
-Copy code
+### Adding New Factors
+- Create a new Python file in the appropriate folder (`text_mode` or `url_mode`)  
+- Define a `check()` function that accepts content (text) or html (webpage)  
+- Return a dictionary:
+```python
 {
     "factor": "Factor Name",
     "score": <calculated_value>
 }
-run_analysis() automatically detects and runs new modules.
+```
+- `run_analysis()` automatically detects and runs new modules.
 
-Future Plans
-Expand to 200+ factor modules
+---
 
-Store factor definitions in a database for dynamic updates
+# Future Plans
+---
+- Expand to 200+ factor modules
+- Store factor definitions in a database for dynamic updates
+- Fully integrate with frontend (content-seo-check-fe)
+- Add advanced scoring: readability, semantic analysis, keyword density, link authority
 
-Fully integrate with frontend (content-seo-check-fe)
+---
 
-Add advanced scoring: readability, semantic analysis, keyword density, link authority
-
-Author
+## Author
 Ida Bagus Wisnu Suputra – gustradev.com/wisnusuputra
 
-License
+## License
 ISC
-
+---
