@@ -1,29 +1,11 @@
-# Web scraping & HTML parsing
-beautifulsoup4==4.12.2
-lxml==4.9.3
-
-# HTTP requests
-requests==2.31.0
-
-# NLP / Text analysis
-nltk==3.8.1
-spacy==3.8.7  # specify version compatible with Python 3.11
-
-# Environment variable management
-python-dotenv==1.0.0
-
-# Web frameworks / API
-fastapi==0.119.1
-uvicorn==0.38.0
-flask==3.1.2
-flask-cors==6.0.1
-gunicorn==23.0.0
-pydantic==2.12.3
-rich==13.5.2
-
-# Data handling
-pandas==2.3.3
-numpy==2.3.4
-
-# Optional: Spell checker
-pyspellchecker==0.7.2
+flask
+flask-cors
+requests
+spacy==3.8.7
+pandas
+numpy
+nltk
+python-dotenv
+pyspellchecker
+rich
+gunicorn
