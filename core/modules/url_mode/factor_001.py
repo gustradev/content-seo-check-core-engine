@@ -1,9 +1,10 @@
+# core/modules/url_mode/factor_001.py
 from bs4 import BeautifulSoup
 
 def check(html):
-    soup = BeautifulSoup(html, 'html.parser')
-    h1_count = len(soup.find_all('h1'))
+    soup = BeautifulSoup(html, "html.parser")
+    title = soup.title.string.strip() if soup.title and soup.title.string else ""
     return {
-        "factor": "H1 Tag Count",
-        "score": h1_count
+        "factor": "Title Tag Length",
+        "value": len(title)
     }

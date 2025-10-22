@@ -1,10 +1,13 @@
-STOPWORDS = {"the","and","is","in","it","of","to","a","for","on"}
+import re
 
-def check(content):
-    words = content.lower().split()
-    stop_count = sum(1 for w in words if w in STOPWORDS)
-    ratio = stop_count / max(len(words), 1) * 100
+PRIMARY_KEYWORD = "ai"  # 🔧 can be dynamically set later
+
+def check(content: str):
+    words = re.findall(r'\b\w+\b', content.lower())
+    total = len(words)
+    count = words.count(PRIMARY_KEYWORD.lower())
+    density = (count / total) * 100 if total > 0 else 0
     return {
-        "factor": "Stopword Ratio",
-        "score": round(ratio, 2)
+        "factor": "Keyword Density (Primary)",
+        "value": round(density, 2)
     }

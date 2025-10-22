@@ -1,9 +1,9 @@
+# core/modules/url_mode/factor_009.py
 from bs4 import BeautifulSoup
 
 def check(html):
-    soup = BeautifulSoup(html, 'html.parser')
-    links = [a['href'] for a in soup.find_all('a', href=True) if a['href'].startswith('/')]
+    soup = BeautifulSoup(html, "html.parser")
     return {
-        "factor": "Internal Link Count",
-        "score": len(links)
+        "factor": "Alt Attribute Coverage",
+        "value": sum(1 for img in soup.find_all("img") if img.get("alt"))
     }

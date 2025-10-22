@@ -1,6 +1,6 @@
-def check(content):
+def check(content: str):
     words = content.split()
     return {
         "factor": "Word Count",
-        "score": len(words)
+        "value": len(words)
     }

@@ -1,9 +1,10 @@
+# core/modules/url_mode/factor_006.py
 from bs4 import BeautifulSoup
 
 def check(html):
-    soup = BeautifulSoup(html, 'html.parser')
-    title = soup.title.string if soup.title else ""
+    soup = BeautifulSoup(html, "html.parser")
+    links = soup.find_all("a", href=True)
     return {
-        "factor": "Title Length",
-        "score": len(title)
+        "factor": "Total Link Count",
+        "value": len(links)
     }

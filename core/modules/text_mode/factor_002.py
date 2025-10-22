@@ -1,8 +1,5 @@
-import re
-def check(content):
-    sentences = re.split(r'[.!?]+', content)
-    sentences = [s.strip() for s in sentences if s.strip()]
+def check(content: str):
     return {
-        "factor": "Sentence Count",
-        "score": len(sentences)
+        "factor": "Character Count",
+        "value": len(content)
     }

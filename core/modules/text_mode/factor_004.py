@@ -1,9 +1,6 @@
-def check(content):
-    words = content.lower().split()
-    keyword = "seo"
-    count = words.count(keyword)
-    density = count / max(len(words), 1) * 100
+def check(content: str):
+    paragraphs = [p for p in content.split("\n") if p.strip()]
     return {
-        "factor": "Keyword Density (seo)",
-        "score": round(density, 2)
+        "factor": "Paragraph Count",
+        "value": len(paragraphs)
     }

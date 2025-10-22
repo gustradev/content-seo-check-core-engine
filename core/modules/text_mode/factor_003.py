@@ -1,7 +1,9 @@
-def check(content):
-    words = content.split()
-    avg_len = sum(len(w) for w in words) / max(len(words), 1)
+import re
+
+def check(content: str):
+    sentences = re.split(r'[.!?]+', content)
+    sentences = [s.strip() for s in sentences if s.strip()]
     return {
-        "factor": "Average Word Length",
-        "score": round(avg_len, 2)
+        "factor": "Sentence Count",
+        "value": len(sentences)
     }

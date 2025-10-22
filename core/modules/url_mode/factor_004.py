@@ -1,9 +1,9 @@
+# core/modules/url_mode/factor_004.py
 from bs4 import BeautifulSoup
 
 def check(html):
-    soup = BeautifulSoup(html, 'html.parser')
-    images = soup.find_all('img')
+    soup = BeautifulSoup(html, "html.parser")
     return {
-        "factor": "Number of Images",
-        "score": len(images)
+        "factor": "H2 Tag Count",
+        "value": len(soup.find_all("h2"))
     }

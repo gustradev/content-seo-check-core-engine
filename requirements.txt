@@ -24,3 +24,13 @@ fastapi
 uvicorn
 gunicorn
 pydantic
+
+# --- Data Handling ---
+pandas
+numpy
+spacy
+
+# Specific SpaCy model for English (used by F015)
+en-core-web-sm
+# Optional/future: Spell checker library (for Factor 041)
+pyspellchecker

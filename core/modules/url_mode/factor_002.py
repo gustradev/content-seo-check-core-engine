@@ -1,9 +1,11 @@
+# core/modules/url_mode/factor_002.py
 from bs4 import BeautifulSoup
 
 def check(html):
-    soup = BeautifulSoup(html, 'html.parser')
-    h2_count = len(soup.find_all('h2'))
+    soup = BeautifulSoup(html, "html.parser")
+    meta_desc = soup.find("meta", attrs={"name": "description"})
+    content = meta_desc["content"].strip() if meta_desc and meta_desc.get("content") else ""
     return {
-        "factor": "H2 Tag Count",
-        "score": h2_count
+        "factor": "Meta Description Length",
+        "value": len(content)
     }

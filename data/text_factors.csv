@@ -1,201 +1,201 @@
-id,name,mode,description,weight
-001,Word Count,text,Total number of words in the text,5
-002,Character Count,text,Total number of characters,3
-003,Sentence Count,text,Counts number of sentences,3
-004,Paragraph Count,text,Counts number of paragraphs,3
-005,Average Sentence Length,text,Calculates average sentence length,4
-006,Average Word Length,text,Calculates average word length,3
-007,Keyword Density,text,Primary keyword density percentage,5
-008,Secondary Keyword Density,text,Secondary keyword density,4
-009,Stopword Ratio,text,Ratio of stopwords to total words,3
-010,Flesch Reading Ease,text,Readability score using Flesch formula,5
-011,Flesch-Kincaid Grade,text,Readability grade level,5
-012,Gunning Fog Index,text,Readability estimation,4
-013,Passive Voice Usage,text,Percentage of sentences in passive voice,4
-014,Adverb Count,text,Counts adverbs in text,2
-015,Pronoun Usage,text,Counts pronouns for clarity,3
-016,Transition Words Usage,text,Percentage of transition words,3
-017,Subheading Count,text,Counts H2/H3 in content,4
-018,H1 Presence,text,Checks if H1 heading exists,5
-019,H2 Presence,text,Checks if H2 headings exist,4
-020,Meta Title Length,text,Title length optimization,4
-021,Meta Description Length,text,Length of meta description,4
-022,Keyword in Title,text,Checks if primary keyword in title,5
-023,Keyword in Subheadings,text,Primary keyword in subheadings,5
-024,Keyword in First 100 Words,text,Keyword usage at start,5
-025,Keyword in Last 100 Words,text,Keyword usage at end,3
-026,Internal Links Count,text,Number of internal links in text,4
-027,External Links Count,text,Number of external links in text,4
-028,Anchor Text Diversity,text,Diversity of anchor texts,3
-029,Sentence Variety,text,Variety in sentence structure,4
-030,Paragraph Length,text,Average paragraph length,3
-031,Readability Level,text,Estimated reading grade,5
-032,Content Originality,text,Detects duplicate content,5
-033,Plagiarism Check,text,Flag possible plagiarism,5
-034,Keyword Prominence,text,Position of keyword in text,4
-035,Keyword Distribution,text,How evenly keywords appear,4
-036,Long-tail Keywords,text,Presence of long-tail keywords,4
-037,LSI Keywords,text,Presence of semantically related keywords,4
-038,Semantic Relevance,text,Text relevance to topic,5
-039,Coherence Score,text,Logical flow of ideas,4
-040,Clarity Score,text,Ease of understanding,4
-041,Spelling Errors,text,Counts spelling mistakes,5
-042,Grammar Errors,text,Counts grammar mistakes,5
-043,Punctuation Accuracy,text,Checks punctuation usage,3
-044,Readability Sentences,text,Sentence complexity,4
-045,Stopword Optimization,text,Stopword management for SEO,3
-046,Content Gap,text,Detects missing subtopics,4
-047,Content Redundancy,text,Detect repeated points,3
-048,Heading Hierarchy,text,H1→H2→H3 proper structure,4
-049,Subheading Length,text,Checks subheading length,3
-050,Sentence Simplicity,text,Percentage of simple sentences,3
-051,Active Voice Sentences,text,Percentage of active voice,4
-052,Complex Words Usage,text,Percentage of complex words,3
-053,Conjunctions Usage,text,Percentage of conjunctions,2
-054,Numeric Data Usage,text,Counts numbers in text,2
-055,Percentage Unique Words,text,Ratio of unique words,4
-056,Stopword Removal,text,Text without unnecessary stopwords,3
-057,Keyword in ALT,text,Checks keywords in image alt text,4
-058,Keyword in URL,text,Keyword presence in suggested URL,3
-059,Keyword in Meta,text,Keyword presence in meta tags,4
-060,Text Sentiment Score,text,Overall sentiment of text,4
-061,Positive Sentiment,text,Positive tone percentage,3
-062,Negative Sentiment,text,Negative tone percentage,3
-063,Neutral Sentiment,text,Neutral tone percentage,3
-064,Emotional Words Usage,text,Presence of emotional words,3
-065,Power Words Usage,text,Presence of power words,3
-066,Call-to-Action Presence,text,Detects CTA in text,4
-067,Content Length Adequacy,text,Length meets topic needs,4
-068,Topic Coverage,text,All subtopics included,4
-069,Content Depth,text,Depth of explanation,4
-070,Content Freshness,text,How up-to-date the content is,5
-071,Contextual Keywords,text,Contextual keyword presence,4
-072,Internal Linking Context,text,Internal link relevance,4
-073,Outbound Linking Context,text,Outbound link relevance,4
-074,Anchor Text Context,text,Anchor text relevance,3
-075,Keyword Clustering,text,Checks related keyword clusters,4
-076,Latent Semantic Indexing,text,Presence of LSI terms,4
-077,Content Readability,text,Overall readability score,5
-078,SEO Score Placeholder,text,Calculates SEO score placeholder,5
-079,GEO Score Placeholder,text,Calculates GEO score placeholder,5
-080,Hybrid Score Placeholder,text,Combines SEO+GEO score placeholder,5
-081,Content Tone,text,Tone of writing (formal/informal),3
-082,Content Style,text,Style consistency (e.g., professional),3
-083,Sentence Variation,text,Variety in sentence structure,4
-084,Keyword Stuffing,text,Detect overuse of keywords,5
-085,Stopword Density,text,Stopword ratio relevance,3
-086,Content Uniqueness Check,text,Plagiarism & originality check,5
-087,Internal Link Anchor Diversity,text,Checks anchor variety,3
-088,Readability Per Paragraph,text,Checks readability per paragraph,4
-089,Keyword in First Sentence,text,Keyword used in opening sentence,5
-090,Keyword in Last Sentence,text,Keyword used in conclusion,4
-091,Passive-to-Active Ratio,text,Ratio passive vs active sentences,4
-092,Text Complexity Score,text,Advanced complexity scoring,4
-093,Readability Transition,text,Presence of transition phrases,4
-094,Keyword Repetition,text,Counts repeated keywords,4
-095,Content Outline Score,text,Does text follow logical outline,4
-096,Section Clarity,text,Section readability,4
-097,Subtopic Coverage,text,Coverage of all subtopics,4
-098,Content Formatting,text,Checks use of lists, bold, italics, etc.,3
-099,Content Accessibility,text,Readable by screen readers,4
-100,Link Presence,text,Presence of links in text,3
-101,Content Sentiment Polarity,text,Measures overall sentiment polarity,4
-102,Content Sentiment Intensity,text,Measures sentiment intensity,4
-103,Named Entities,text,Detect named entities in text,4
-104,Entity Relevance,text,Check relevance of entities to topic,4
-105,Keyword Co-occurrence,text,How often keywords appear together,4
-106,Keyword Contextual Relevance,text,Keyword context analysis,5
-107,Keyword Density by Section,text,Keyword distribution per section,4
-108,Paragraph Topic Score,text,Relevance of paragraph to topic,4
-109,Semantic Similarity Score,text,Similarity to reference topic,5
-110,LSI Density,text,Density of semantically related keywords,4
-111,Keyword Variation,text,Variation of keyword forms,4
-112,Subtopic Keyword Coverage,text,Check keywords for each subtopic,4
-113,Paragraph Transition Smoothness,text,Evaluates transition between paragraphs,4
-114,Sentence Transition Smoothness,text,Evaluates transition between sentences,4
-115,Topic Sentence Clarity,text,Clarity of topic sentences,4
-116,Summary Presence,text,Presence of summary/conclusion,4
-117,Title-Content Relevance,text,Relevance of content to title,5
-118,Meta-Description Relevance,text,Content relevance to meta description,5
-119,Header-Content Relevance,text,Check H2/H3 relevance to section content,4
-120,Content Originality Check,text,Advanced plagiarism detection,5
-121,Content Redundancy Check,text,Duplicate phrases detection,4
-122,Content Brevity,text,Conciseness of content,3
-123,Sentence Complexity,text,Percentage of complex sentences,4
-124,Sentence Simplicity,text,Percentage of simple sentences,3
-125,Paragraph Coherence,text,Paragraph logical flow,4
-126,Paragraph Length Uniformity,text,Uniformity of paragraph lengths,3
-127,Readability Per Sentence,text,Sentence-level readability,4
-128,Keyword in Heading,text,Keyword presence in headings,5
-129,Keyword in Subheading,text,Keyword presence in subheadings,5
-130,Call-to-Action Presence,text,Detect CTAs in text,4
-131,CTA Effectiveness,text,Evaluate CTA clarity and relevance,4
-132,Content Engagement Score,text,Estimate engagement potential,4
-133,Content Value Score,text,Estimate informative value,4
-134,Semantic Coherence Score,text,Semantic consistency of content,5
-135,Core Topic Coverage,text,Check coverage of core topic points,5
-136,Secondary Topic Coverage,text,Check coverage of secondary topics,4
-137,Internal Link Context,text,Internal link relevance to context,4
-138,Outbound Link Context,text,Outbound link relevance,4
-139,Anchor Text Context,text,Anchor text contextual relevance,4
-140,Content Tone Consistency,text,Consistency in tone throughout text,3
-141,Content Style Consistency,text,Consistency in style throughout text,3
-142,Complex Word Ratio,text,Ratio of complex words,3
-143,Simple Word Ratio,text,Ratio of simple words,3
-144,Stopword Balance,text,Balance of stopwords for readability,3
-145,Positive Language,text,Positive language usage,3
-146,Negative Language,text,Negative language usage,3
-147,Neutral Language,text,Neutral language usage,3
-148,Power Words,text,Usage of persuasive words,4
-149,Emotional Words,text,Usage of emotional words,4
-150,Question Usage,text,Number of questions for engagement,3
-151,Exclamation Usage,text,Number of exclamations,2
-152,Passive-to-Active Ratio,text,Ratio passive vs active sentences,4
-153,Word Variety,text,Lexical diversity,4
-154,Repeated Phrases,text,Detect repeated phrases,4
-155,Content Hierarchy,text,Logical structure of headings,4
-156,Text Alignment,text,Proper alignment and spacing,3
-157,Formatting Consistency,text,Consistent use of bold, italics, lists, etc.,3
-158,Content Scannability,text,Ease to scan content (headings, bullets),4
-159,Content Accessibility,text,Readability for screen readers,4
-160,Readability Grade Level,text,Targeted reading grade level,4
-161,Paragraph Sentiment,text,Sentiment score per paragraph,4
-162,Sentence Sentiment,text,Sentiment score per sentence,4
-163,Entity Coverage,text,Coverage of relevant named entities,4
-164,Topic Density,text,Density of core topic terms,5
-165,Subtopic Density,text,Density of subtopic terms,4
-166,Keyword Prominence Score,text,Position-based keyword prominence,5
-167,Keyword Placement Score,text,Placement in headings, first paragraph, etc.,5
-168,Content Freshness,text,Recency of content topics,5
-169,Internal Link Count,text,Number of internal links,4
-170,Outbound Link Count,text,Number of outbound links,4
-171,Anchor Text Quality,text,Quality of anchor text for SEO,4
-172,Link Diversity,text,Diversity of linked domains,3
-173,Content Readability Score,text,Aggregate readability score,5
-174,Sentence Fluency,text,Sentence flow smoothness,4
-175,Paragraph Fluency,text,Paragraph flow smoothness,4
-176,Content Clarity Score,text,Overall clarity assessment,5
-177,Engagement Potential,text,Potential for user engagement,4
-178,Call-to-Action Effectiveness,text,CTA effectiveness assessment,4
-179,SEO Score Placeholder,text,SEO score placeholder,5
-180,GEO Score Placeholder,text,GEO score placeholder,5
-181,Hybrid Score Placeholder,text,Hybrid SEO+GEO score,5
-182,Keyword Repetition Pattern,text,Check repeated keyword sequences,4
-183,Keyword Gap Analysis,text,Missing keywords compared to topic,4
-184,Content Optimization Suggestions,text,Automated suggestions,4
-185,Content Structure Score,text,Structure completeness,4
-186,Header Coverage,text,Presence of H2/H3 for all sections,4
-187,Content Flow Score,text,Flow between sections,4
-188,Sentence Transition Score,text,Sentence transition quality,4
-189,Paragraph Transition Score,text,Paragraph transition quality,4
-190,Topic Consistency,text,Consistency in topic coverage,5
-191,Subtopic Consistency,text,Consistency in subtopic coverage,4
-192,Contextual Keyword Relevance,text,Relevance of keywords to context,5
-193,Semantic Keyword Coverage,text,Coverage of semantic keywords,5
-194,Engagement Phrases,text,Presence of engagement-focused phrases,3
-195,Content Persuasiveness,text,Persuasiveness of writing,4
-196,Readability Improvement,text,Suggestions for readability improvements,4
-197,SEO Optimization Potential,text,Potential SEO improvements,5
-198,GEO Optimization Potential,text,Potential GEO improvements,5
-199,Hybrid Optimization Score,text,Combined SEO+GEO optimization score,5
-200,Content Recommendation Placeholder,text,Automated recommendations placeholder,5
+id,name,mode,description,weight,suggestion_value,suggestion_text_if_over,suggestion_text_if_below
+1,Word Count,text,Total number of words in the text,5,600,Consider reducing word count; conciseness improves AI interpretability.,Add more depth to reach at least 600 words for better AI and SEO context.
+2,Character Count,text,Total number of characters,2,3500,Try shortening long content for better engagement.,Add more descriptive content for better visibility.
+3,Sentence Count,text,Counts number of sentences,3,25,Break long sections into shorter paragraphs.,Expand explanations with more context.
+4,Paragraph Count,text,Counts number of paragraphs,3,10,Combine short paragraphs for smoother flow.,Separate text into more paragraphs for easier reading.
+5,Average Sentence Length,text,Calculates average sentence length,4,20,Shorten sentences; AI and readers prefer clarity.,Slightly lengthen sentences for richer context.
+6,Average Word Length,text,Calculates average word length,3,5,Simplify language to improve accessibility.,Use slightly more descriptive vocabulary for depth.
+7,Keyword Density (Primary),text,Primary keyword density percentage,5,1.5,Avoid keyword stuffing; keep natural phrasing.,Include target keyword naturally 1–2 more times.
+8,Keyword Density (Secondary),text,Secondary keyword density,4,1,Reduce repetitive secondary keywords.,Add supporting keywords to enrich context.
+9,Stopword Ratio,text,Ratio of stopwords to total words,3,0.45,Reduce filler words to improve clarity.,Add more natural connectors to improve sentence flow.
+10,Flesch Reading Ease,text,Readability score using Flesch formula,5,70,Content may be too complex; simplify sentences for better accessibility.,Increase variety and depth slightly to reach an optimal readability score.
+11,Flesch-Kincaid Grade,text,Readability grade level,5,8,Simplify language; aim for grade level 8 or below for wider reach.,Add more technical detail or complexity if content feels too simple.
+12,Gunning Fog Index,text,Readability estimation,4,12,Sentences may be too long or complex; aim for a lower Fog Index.,Add slightly more complex phrasing or vocabulary for professional tone.
+13,Passive Voice Usage,text,Percentage of sentences in passive voice,4,10,Reduce passive voice; use more active phrasing for clarity.,Maintain balance; too few passive forms can limit stylistic flow.
+14,Adverb Count,text,Counts adverbs in text,2,30,Too many adverbs reduce clarity; replace with stronger verbs.,Add a few adverbs to enhance tone or emotional emphasis.
+15,Pronoun Usage,text,Counts pronouns for clarity,3,5,Overuse of pronouns may confuse readers; use clearer nouns.,Add pronouns to make sentences feel more natural and personal.
+16,Transition Words Usage,text,Percentage of transition words,3,30,Too many transition words may reduce impact; simplify sentences.,Add more transition words to improve logical flow between ideas.
+17,Subheading Count,text,Counts H2/H3 in content,4,5,Too many subheadings may fragment content.,Add more subheadings to organize ideas clearly.
+18,H1 Presence,text,Checks if H1 heading exists,5,1,Multiple H1 tags found; use only one for clarity.,Add one H1 tag to define the main topic clearly.
+19,H2 Presence,text,Checks if H2 headings exist,4,2,Too many H2 headings may dilute hierarchy.,Add at least two H2 headings to structure content better.
+20,Meta Title Length,text,Title length optimization,4,60,Title too long; shorten for better SERP display.,Increase title length to include more descriptive keywords.
+21,Meta Description Length,text,Length of meta description,4,155,Meta description too long; may be truncated in search results.,Add more detail or keywords to strengthen description.
+22,Keyword in Title,text,Checks if primary keyword in title,5,1,Avoid repeating keyword in title.,Include primary keyword once in the title for relevance.
+23,Keyword in Subheadings,text,Primary keyword in subheadings,5,1,Too many subheading keyword repetitions; may appear stuffed.,Include the primary keyword in at least one subheading.
+24,Keyword in First 100 Words,text,Keyword usage at start,5,1,Avoid forced keyword placement at the start.,Include the main keyword within the first 100 words naturally.
+25,Keyword in Last 100 Words,text,Keyword usage at end,3,1,Avoid repeating keyword unnaturally at the end.,Add main keyword naturally in conclusion or last 100 words.
+26,Internal Links Count,text,Number of internal links in text,4,3,Too many internal links may distract readers.,Add internal links to related content to improve navigation.
+27,External Links Count,text,Number of external links in text,4,3,Reduce excessive external links to retain user focus.,Add credible external links to support authority and trust.
+28,Anchor Text Diversity,text,Diversity of anchor texts,3,0.6,Anchor texts too repetitive; vary link phrases.,Increase consistency with recognizable keywords in links.
+29,Sentence Variety,text,Variety in sentence structure,4,0.7,Overly repetitive sentence structure; vary with compound or complex forms.,Maintain natural flow but ensure some pattern consistency.
+30,Paragraph Length,text,Average paragraph length,3,120,Paragraphs too long; split into smaller sections.,Paragraphs too short; expand ideas to improve depth.
+31,Readability Level,text,Estimated reading grade,5,8,Content is too complex; simplify vocabulary and sentence structure.,Increase detail or vocabulary complexity slightly for a more authoritative tone.
+32,Content Originality,text,Detects duplicate content,5,90,Duplicate content detected; rewrite or rephrase for uniqueness.,Increase content richness to reach higher originality score.
+33,Plagiarism Check,text,Flag possible plagiarism,5,5,High plagiarism percentage; revise or cite properly.,Excellent originality level; maintain proper attribution.
+34,Keyword Prominence,text,Position of keyword in text,4,1,Keyword appears too frequently at the start; reduce over-optimization.,Include keyword earlier in the text for better prominence.
+35,Keyword Distribution,text,How evenly keywords appear,4,0.8,Keywords are clustered; distribute evenly across sections.,Ensure keyword appears consistently throughout the content.
+36,Long-tail Keywords,text,Presence of long-tail keywords,4,2,Too many long-tail keywords may confuse topic focus.,Add more long-tail keywords to capture niche search intent.
+37,LSI Keywords,text,Presence of semantically related keywords,4,3,Too many semantically related terms; may reduce focus.,Add more LSI (related) keywords to improve topical relevance.
+38,Semantic Relevance,text,Text relevance to topic,5,0.85,Some parts stray off-topic; improve topical focus.,Add supporting details or subtopics to strengthen semantic depth.
+39,Coherence Score,text,Logical flow of ideas,4,0.8,Sentences may feel disconnected; improve flow with transitions.,Add better transitions to maintain logical continuity.
+40,Clarity Score,text,Ease of understanding,4,0.85,Text may be confusing or overly technical; simplify explanations.,Add precise details to improve clarity and context.
+41,Spelling Errors,text,Counts spelling mistakes,5,2,Too many spelling errors found; proofread the text carefully.,Excellent spelling accuracy; maintain quality control.
+42,Grammar Errors,text,Counts grammar mistakes,5,2,Grammar issues detected; revise sentences for correctness.,Excellent grammar usage; maintain the same standard.
+43,Punctuation Accuracy,text,Checks punctuation usage,3,90,Overuse or misuse of punctuation; review commas and periods.,Add appropriate punctuation for better readability.
+44,Readability Sentences,text,Sentence complexity,4,20,Sentences too long; split for better readability.,Sentences too short; combine for natural rhythm.
+45,Stopword Optimization,text,Stopword management for SEO,3,0.45,Too many stopwords may reduce keyword signal.,Use more stopwords naturally to improve sentence flow.
+46,Content Gap,text,Detects missing subtopics,4,0.8,Content lacks coverage on key subtopics; expand sections.,Content covers too much; focus on the most relevant subtopics.
+47,Content Redundancy,text,Detect repeated points,3,0.3,Repeated points detected; consolidate to avoid redundancy.,Add reinforcement or summaries where ideas feel incomplete.
+48,Heading Hierarchy,text,H1→H2→H3 proper structure,4,1,Incorrect heading hierarchy; adjust to follow logical structure.,Add missing heading levels for proper semantic hierarchy.
+49,Subheading Length,text,Checks subheading length,3,70,Subheadings too long; shorten for clarity.,Subheadings too short; make them more descriptive for SEO value.
+50,Sentence Simplicity,text,Percentage of simple sentences,3,60,Too many simple sentences; add variety for engagement.,Simplify more sentences for easier comprehension.
+51,Active Voice Sentences,text,Percentage of active voice,4,85,Too many active sentences may sound repetitive; add variety.,Use more active voice for clarity and energy.
+52,Complex Words Usage,text,Percentage of complex words,3,20,Excessive complex words; simplify for broader reach.,Add more advanced terms to enrich expression.
+53,Conjunctions Usage,text,Percentage of conjunctions,2,5,Too many conjunctions may reduce clarity.,Use more conjunctions to improve sentence flow.
+54,Numeric Data Usage,text,Counts numbers in text,2,3,Too many numbers; simplify presentation.,Add relevant statistics or data for credibility.
+55,Percentage Unique Words,text,Ratio of unique words,4,0.7,Repetitive wording detected; add variety.,Include more repetition for keyword reinforcement.
+56,Stopword Removal,text,Text without unnecessary stopwords,3,0.45,Text too dense; allow more natural stopword usage.,Remove filler words to increase keyword clarity.
+57,Keyword in ALT,text,Checks keywords in image alt text,4,1,Avoid keyword stuffing in alt attributes.,Include keyword in at least one image alt tag.
+58,Keyword in URL,text,Keyword presence in suggested URL,3,1,Avoid forcing keywords in URLs.,Include target keyword in URL for SEO clarity.
+59,Keyword in Meta,text,Keyword presence in meta tags,4,1,Avoid overusing keywords in meta tags.,Include primary keyword in meta title or description.
+60,Text Sentiment Score,text,Overall sentiment of text,4,0.6,Tone may be too extreme; balance sentiment.,Add stronger positive tone to improve engagement.
+61,Positive Sentiment,text,Positive tone percentage,3,0.5,Overly positive tone; reduce exaggeration.,Increase positivity to improve engagement.
+62,Negative Sentiment,text,Negative tone percentage,3,0.2,Too negative tone may hurt trust.,Add balance or optimism to tone.
+63,Neutral Sentiment,text,Neutral tone percentage,3,0.5,Overly neutral tone may sound dull.,Balance neutrality with emotional appeal.
+64,Emotional Words Usage,text,Presence of emotional words,3,3,Too emotional; may reduce professionalism.,Add more emotional cues to drive reader connection.
+65,Power Words Usage,text,Presence of power words,3,2,Too many power words; may appear clickbait-like.,Add more power words to strengthen persuasion.
+66,Call-to-Action Presence,text,Detects CTA in text,4,1,Avoid multiple CTAs; focus on one clear action.,Add a clear call-to-action to guide readers.
+67,Content Length Adequacy,text,Length meets topic needs,4,600,Too lengthy; remove redundant parts.,Expand content to meet topic depth.
+68,Topic Coverage,text,All subtopics included,4,0.8,Covers too many unrelated subtopics; stay focused.,Add missing subtopics to improve completeness.
+69,Content Depth,text,Depth of explanation,4,0.85,Too detailed; may overwhelm readers.,Add more explanation or examples for depth.
+70,Content Freshness,text,How up-to-date the content is,5,6,Information may be outdated; refresh sources.,Add updated statistics or trends for freshness.
+71,Contextual Keywords,text,Contextual keyword presence,4,0.75,Overuse of contextual keywords; reduce clutter.,Add more related keywords for context relevance.
+72,Internal Linking Context,text,Internal link relevance,4,0.85,Internal links may be off-topic; refine linking targets.,Add relevant internal links to related pages.
+73,Outbound Linking Context,text,Outbound link relevance,4,0.8,External links may not match context; revise.,Add authoritative external links for credibility.
+74,Anchor Text Context,text,Anchor text relevance,3,0.75,Anchor text too generic; make more descriptive.,Add more contextually relevant anchor text.
+75,Keyword Clustering,text,Checks related keyword clusters,4,0.7,Too many clusters; may confuse topic hierarchy.,Group related keywords for better cluster alignment.
+76,Latent Semantic Indexing,text,Presence of LSI terms,4,0.6,Too many LSI terms may dilute main keyword signal.,Add more LSI terms to improve semantic reach.
+77,Content Readability,text,Overall readability score,5,70,Content may be too complex; simplify structure.,Increase complexity for professional tone if too simple.
+78,SEO Score Placeholder,text,Calculates SEO score placeholder,5,80,SEO performance strong; continue optimizing.,"SEO score low; improve meta, keyword, and readability factors."
+79,GEO Score Placeholder,text,Calculates GEO score placeholder,5,80,High GEO relevance achieved; maintain.,Low GEO optimization; improve entity and citation balance.
+80,Hybrid Score Placeholder,text,Combines SEO+GEO score placeholder,5,80,Excellent hybrid balance; maintain approach.,Hybrid score low; balance content and semantic relevance.
+81,Content Tone,text,Tone of writing (formal/informal),3,0.5,Tone inconsistent; adjust to audience.,Maintain consistent tone for readability.
+82,Content Style,text,Style consistency (e.g.),3,0.8,Inconsistent style detected; revise tone and format.,Add stylistic consistency for professional polish.
+83,Sentence Variation,text,Variety in sentence structure,4,0.7,Repetitive sentence patterns; add variety.,Maintain rhythm but ensure clear variation.
+84,Keyword Stuffing,text,Detect overuse of keywords,5,1.5,Keyword stuffing detected; reduce repetition.,Add target keyword a bit more to optimize density.
+85,Stopword Density,text,Stopword ratio relevance,3,0.45,Too many stopwords reduce keyword focus.,Add natural stopwords for better readability.
+86,Content Uniqueness Check,text,Plagiarism & originality check,5,90,Low originality detected; rewrite content.,High uniqueness achieved; maintain quality.
+87,Internal Link Anchor Diversity,text,Checks anchor variety,3,0.6,Anchor texts repetitive; diversify phrasing.,Ensure enough variety in anchor text usage.
+88,Readability Per Paragraph,text,Checks readability per paragraph,4,70,Paragraphs too dense; simplify.,Paragraphs too basic; add depth for engagement.
+89,Keyword in First Sentence,text,Keyword used in opening sentence,5,1,Avoid keyword stuffing in opening line.,Include target keyword in the first sentence naturally.
+90,Keyword in Last Sentence,text,Keyword used in conclusion,4,1,Avoid forced keyword repetition at the end.,Add target keyword naturally in conclusion.
+91,Passive-to-Active Ratio,text,Ratio passive vs active sentences,4,0.2,Too much passive voice; rephrase actively.,Balance with some passive sentences for tone diversity.
+92,Text Complexity Score,text,Advanced complexity scoring,4,0.75,Too complex; simplify sentence structures.,Add complexity for more authoritative content.
+93,Readability Transition,text,Presence of transition phrases,4,0.3,Too many transitions; reduce connectors.,Add transitions for smoother reading flow.
+94,Keyword Repetition,text,Counts repeated keywords,4,1.5,Too many keyword repetitions detected.,Add more repetitions for consistent optimization.
+95,Content Outline Score,text,Does text follow logical outline,4,0.8,Outline structure inconsistent; reorder sections.,Add structured outline for clarity.
+96,Section Clarity,text,Section readability,4,0.85,Sections unclear; simplify and separate ideas.,Add explanations for better section understanding.
+97,Subtopic Coverage,text,Coverage of all subtopics,4,0.8,Covers too many non-core topics; focus.,Add missing subtopics for topic completeness.
+98,Content Formatting,text,Checks use of lists,3,1,Too many lists; vary structure.,Add bullet lists or numbering for clarity.
+99,Content Accessibility,text,Readable by screen readers,4,0.9,Accessibility issues found; review formatting and tags.,Content highly accessible; maintain standards.
+100,Link Presence,text,Presence of links in text,3,1,Too many links may distract readers.,Add relevant internal or external links for credibility.
+101,Content Sentiment Polarity,text,Measures overall sentiment polarity,4,0.6,Sentiment too polarized; aim for balance.,Increase emotional polarity for stronger tone.
+102,Content Sentiment Intensity,text,Measures sentiment intensity,4,0.5,Too intense; tone down emotion for professionalism.,Add stronger emotional tone to connect with readers.
+103,Named Entities,text,Detect named entities in text,4,5,Too many named entities may distract focus.,Add relevant entities or references for context.
+104,Entity Relevance,text,Check relevance of entities to topic,4,0.8,Entities may be off-topic; revise mentions.,Add topic-relevant entities to improve semantic trust.
+105,Keyword Co-occurrence,text,How often keywords appear together,4,0.6,Too frequent co-occurrence; may cause redundancy.,Increase keyword pairing for semantic signal.
+106,Keyword Contextual Relevance,text,Keyword context analysis,5,0.8,Keywords overused in poor context; rephrase.,Add keywords in meaningful context for clarity.
+107,Keyword Density by Section,text,Keyword distribution per section,4,0.7,Uneven keyword spread detected.,Balance keyword density across all sections.
+108,Paragraph Topic Score,text,Relevance of paragraph to topic,4,0.8,Some paragraphs off-topic; revise content.,Add topic focus to weaker paragraphs.
+109,Semantic Similarity Score,text,Similarity to reference topic,5,0.9,Too close to source; may indicate duplication.,Increase similarity to improve topic alignment.
+110,LSI Density,text,Density of semantically related keywords,4,0.6,Too many LSI keywords; may reduce focus.,Add more LSI keywords to enhance context.
+111,Keyword Variation,text,Variation of keyword forms,4,0.7,Too many keyword variations; maintain focus.,Add keyword variations for natural flow.
+112,Subtopic Keyword Coverage,text,Check keywords for each subtopic,4,0.8,Overused subtopic keywords; simplify.,Add missing subtopic keywords for better coverage.
+113,Paragraph Transition Smoothness,text,Evaluates transition between paragraphs,4,0.7,Too many connectors; transitions may feel forced.,Add smoother transitions between paragraphs.
+114,Sentence Transition Smoothness,text,Evaluates transition between sentences,4,0.7,Sentence transitions repetitive or forced.,Add connectors to improve flow between sentences.
+115,Topic Sentence Clarity,text,Clarity of topic sentences,4,0.8,Topic sentences too obvious or repetitive.,Clarify topic sentences for stronger focus.
+116,Summary Presence,text,Presence of summary/conclusion,4,1,Summary too long or redundant.,Add a concise summary or conclusion.
+117,Title-Content Relevance,text,Relevance of content to title,5,0.9,Title may mislead content focus.,Ensure title aligns with content intent.
+118,Meta-Description Relevance,text,Content relevance to meta description,5,0.9,Meta description overpromises; revise.,Align meta description more closely with body content.
+119,Header-Content Relevance,text,Check H2/H3 relevance to section content,4,0.8,Headings not aligned with section content.,Adjust content to match heading context.
+120,Content Originality Check,text,Advanced plagiarism detection,5,90,Possible duplication found; rewrite needed.,High originality; maintain content standard.
+121,Content Redundancy Check,text,Duplicate phrases detection,4,1.2,Too much redundancy; condense content.,Add reinforcing phrases for cohesion.
+122,Content Brevity,text,Conciseness of content,3,0.8,Too brief; lacks depth.,Trim unnecessary filler for conciseness.
+123,Sentence Complexity,text,Percentage of complex sentences,4,0.4,Too complex; reduce sentence difficulty.,Add complexity for professional tone.
+124,Sentence Simplicity,text,Percentage of simple sentences,3,0.6,Overly simple structure; add variation.,Simplify sentences for clarity.
+125,Paragraph Coherence,text,Paragraph logical flow,4,0.8,Incoherent transitions; revise order.,Ensure smooth logical flow across paragraphs.
+126,Paragraph Length Uniformity,text,Uniformity of paragraph lengths,3,0.75,Paragraphs too uniform; add rhythm.,Standardize paragraph length for visual balance.
+127,Readability Per Sentence,text,Sentence-level readability,4,70,Sentences too complex; simplify.,Add depth to improve engagement.
+128,Keyword in Heading,text,Keyword presence in headings,5,1,Avoid keyword stuffing in headings.,Include primary keyword in at least one H2/H3 heading.
+129,Keyword in Subheading,text,Keyword presence in subheadings,5,1,Overuse of keywords in subheadings.,Add keyword naturally in one subheading.
+130,Call-to-Action Presence,text,Detect CTAs in text,4,1,Too many CTAs; reduce redundancy.,Add at least one strong CTA for user conversion.
+131,CTA Effectiveness,text,Evaluate CTA clarity and relevance,4,0.8,CTA wording too aggressive or unclear.,Refine CTA for clarity and persuasive tone.
+132,Content Engagement Score,text,Estimate engagement potential,4,0.7,Engagement signals oversaturated; simplify.,Add interactive or emotionally engaging phrasing.
+133,Content Value Score,text,Estimate informative value,4,0.8,Too much filler content detected.,Add factual or practical insights to raise value.
+134,Semantic Coherence Score,text,Semantic consistency of content,5,0.85,Semantic drift detected; refine focus.,Add contextual depth for consistent theme.
+135,Core Topic Coverage,text,Check coverage of core topic points,5,0.9,Overloaded with peripheral info.,Add missing key topic elements.
+136,Secondary Topic Coverage,text,Check coverage of secondary topics,4,0.8,Too many tangents; simplify.,Include relevant secondary topics for context depth.
+137,Internal Link Context,text,Internal link relevance to context,4,0.8,Internal links off-topic; revise targets.,Add internal links to related contextual pages.
+138,Outbound Link Context,text,Outbound link relevance,4,0.8,External links off-topic; replace.,Add high-authority outbound links for credibility.
+139,Anchor Text Context,text,Anchor text contextual relevance,4,0.75,Anchor text too generic; refine wording.,Add descriptive anchor text for clarity.
+140,Content Tone Consistency,text,Consistency in tone throughout text,3,0.8,Tone fluctuates; unify writing style.,Add tone variation where necessary for engagement.
+141,Content Style Consistency,text,Consistency in style throughout text,3,0.8,Inconsistent writing style detected.,Ensure consistent writing style and formatting.
+142,Complex Word Ratio,text,Ratio of complex words,3,0.25,Too many complex words; simplify.,Add more advanced terms for depth.
+143,Simple Word Ratio,text,Ratio of simple words,3,0.65,Overly simple vocabulary; add sophistication.,Simplify further for broader readability.
+144,Stopword Balance,text,Balance of stopwords for readability,3,0.45,Too many stopwords; reduce clutter.,Add natural stopwords to improve flow.
+145,Positive Language,text,Positive language usage,3,0.6,Tone overly positive; reduce hype.,Increase positivity to boost engagement.
+146,Negative Language,text,Negative language usage,3,0.2,Too negative tone; adjust wording.,Add moderate negativity to create contrast.
+147,Neutral Language,text,Neutral language usage,3,0.5,Tone too neutral; lacks emotion.,Add more neutrality for balanced tone.
+148,Power Words,text,Usage of persuasive words,4,2,Too many power words; may feel spammy.,Add power words for stronger call-to-action.
+149,Emotional Words,text,Usage of emotional words,4,3,Too emotional; tone it down.,Add emotional expressions to connect with readers.
+150,Question Usage,text,Number of questions for engagement,3,5,Too many rhetorical questions; may feel forced.,Add more questions to encourage engagement.
+151,Exclamation Usage,text,Number of exclamations,2,3,Too many exclamations; may seem unprofessional.,Add exclamation marks to increase enthusiasm.
+152,Passive-to-Active Ratio,text,Ratio passive vs active sentences,4,0.6,Too passive; rewrite in active voice.,Add some passive voice for natural balance.
+153,Word Variety,text,Lexical diversity,4,0.7,Too varied vocabulary; may confuse readers.,Use more diverse vocabulary for freshness.
+154,Repeated Phrases,text,Detect repeated phrases,4,0.2,Too repetitive; remove redundant phrases.,Add reinforcing key phrases for emphasis.
+155,Content Hierarchy,text,Logical structure of headings,4,0.8,Heading hierarchy inconsistent; revise structure.,Add structured headings for clarity.
+156,Text Alignment,text,Proper alignment and spacing,3,1,Text misaligned; adjust formatting.,Ensure consistent alignment for readability.
+157,Formatting Consistency,text,Consistent use of bold,3,1,Overuse of bold; may distract reader.,Add formatting highlights for emphasis.
+158,Content Scannability,text,Ease to scan content ,4,0.8,Too dense; hard to scan visually.,Add lists or breaks for easy scanning.
+159,Content Accessibility,text,Readability for screen readers,4,0.8,Accessibility issues detected; simplify structure.,Enhance alt text and semantic structure for accessibility.
+160,Readability Grade Level,text,Targeted reading grade level,4,8,Too advanced; simplify wording.,Add technical depth for expert audiences.
+161,Paragraph Sentiment,text,Sentiment score per paragraph,4,0.6,Emotional tone inconsistent across paragraphs.,Balance paragraph tone for emotional flow.
+162,Sentence Sentiment,text,Sentiment score per sentence,4,0.6,Uneven sentence sentiment; lacks consistency.,Add tonal variation to engage reader emotion.
+163,Entity Coverage,text,Coverage of relevant named entities,4,0.8,Too many unrelated entities; reduce noise.,Add missing entities for topic depth.
+164,Topic Density,text,Density of core topic terms,5,0.7,Topic overemphasized; reduce redundancy.,Increase topic focus using main terms.
+165,Subtopic Density,text,Density of subtopic terms,4,0.6,Too many subtopic terms; may dilute focus.,Add subtopic terms for better balance.
+166,Keyword Prominence Score,text,Position-based keyword prominence,5,0.8,Keywords too front-loaded; vary placement.,Improve keyword prominence earlier in text.
+167,Keyword Placement Score,text,Placement in headings and structure,5,0.8,Overused keywords in headings; reduce.,Include primary keywords in key sections.
+168,Content Freshness,text,Recency of content topics,5,90,Outdated references found; refresh content.,Add more recent references or data.
+169,Internal Link Count,text,Number of internal links,4,10,Too many internal links; may clutter text.,Add internal links to related pages.
+170,Outbound Link Count,text,Number of outbound links,4,5,Too many outbound links; reduce leakage.,Add outbound links to authoritative sources.
+171,Anchor Text Quality,text,Quality of anchor text for SEO,4,0.8,Generic anchor texts detected; refine.,Add descriptive anchor text for SEO relevance.
+172,Link Diversity,text,Diversity of linked domains,3,0.7,Too many links from same domain.,Add external sources for link diversity.
+173,Content Readability Score,text,Aggregate readability score,5,70,Content too hard to read; simplify language.,Add complexity for expert readability.
+174,Sentence Fluency,text,Sentence flow smoothness,4,0.8,Sentences flow too predictably; vary rhythm.,Improve sentence flow for better engagement.
+175,Paragraph Fluency,text,Paragraph flow smoothness,4,0.8,Paragraphs transition too abruptly.,Add connecting phrases for smooth transitions.
+176,Content Clarity Score,text,Overall clarity assessment,5,0.8,Overclarified content; may sound robotic.,Clarify sentences for better comprehension.
+177,Engagement Potential,text,Potential for user engagement,4,0.7,Overstimulating; may appear clickbait.,Add interactive or emotional phrasing to engage users.
+178,Call-to-Action Effectiveness,text,CTA effectiveness assessment,4,0.8,Too pushy CTA detected; soften tone.,Strengthen CTA for clear action guidance.
+179,SEO Score Placeholder,text,SEO score placeholder,5,1,SEO optimization too intense; review factors.,Increase SEO optimization for better ranking.
+180,GEO Score Placeholder,text,GEO score placeholder,5,1,GEO focus too heavy; rebalance factors.,Enhance GEO relevance to improve AI citation score.
+181,Hybrid Score Placeholder,text,Hybrid SEO+GEO score,5,1,Hybrid optimization too skewed toward one type.,Balance SEO and GEO strategies evenly.
+182,Keyword Repetition Pattern,text,Check repeated keyword sequences,4,0.5,Excessive keyword repetition pattern.,Add keyword variety to avoid redundancy.
+183,Keyword Gap Analysis,text,Missing keywords compared to topic,4,0.5,Too many keywords covered; trim focus.,Add missing related keywords for completeness.
+184,Content Optimization Suggestions,text,Automated suggestions for improvement,4,1,Over-optimized content; humanize tone.,Use AI suggestions to enhance optimization.
+185,Content Structure Score,text,Structure completeness score,4,0.8,Overstructured; lacks natural flow.,Add structure for better logical sequence.
+186,Header Coverage,text,Presence of H2/H3 for all sections,4,0.9,Too many headers; simplify hierarchy.,Add missing headers for full coverage.
+187,Content Flow Score,text,Flow between sections,4,0.8,Sections blend too much; separate topics clearly.,Improve flow to connect section ideas.
+188,Sentence Transition Score,text,Sentence transition quality,4,0.7,Transitions too mechanical or repetitive.,Add transitions for smoother sentence flow.
+189,Paragraph Transition Score,text,Paragraph transition quality,4,0.7,Transitions too forced; reduce connectors.,Improve transitions for better readability.
+190,Topic Consistency,text,Consistency in topic coverage,5,0.9,Topic repetition or drift detected.,Maintain consistent coverage across the piece.
+191,Subtopic Consistency,text,Consistency in subtopic coverage,4,0.8,Uneven subtopic coverage.,Expand on missing subtopics for completeness.
+192,Contextual Keyword Relevance,text,Relevance of keywords to context,5,0.8,Keywords misplaced contextually; revise phrasing.,Add contextual relevance to keyword usage.
+193,Semantic Keyword Coverage,text,Coverage of semantic keywords,5,0.8,Overuse of semantic keywords; reduce repetition.,Add semantic keywords for better comprehension.
+194,Engagement Phrases,text,Presence of engagement-focused phrases,3,5,Too many engagement hooks; tone down.,Add engagement-focused phrases for user retention.
+195,Content Persuasiveness,text,Persuasiveness of writing,4,0.8,Too persuasive; may feel forced.,Strengthen persuasive elements for conversion.
+196,Readability Improvement,text,Suggestions for readability improvements,4,1,Readability already high; avoid oversimplifying.,Apply readability improvements for clarity.
+197,SEO Optimization Potential,text,Potential SEO improvements,5,1,SEO saturation; maintain natural tone.,Optimize content with missing SEO opportunities.
+198,GEO Optimization Potential,text,Potential GEO improvements,5,1,Overfitted for AI engines; balance human tone.,Increase AI contextual signals for better citation.
+199,Hybrid Optimization Score,text,Combined SEO+GEO optimization score,5,1,Hybrid score imbalance detected; tune parameters.,Improve hybrid synergy between SEO and GEO.
+200,Content Recommendation Placeholder,text,Automated recommendations placeholder,5,1,Excessive recommendations; simplify output.,Add more personalized recommendations for clarity.

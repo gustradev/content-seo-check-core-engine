@@ -1,7 +1,7 @@
-def check(content):
-    words = content.lower().split()
-    unique_words = set(words)
+def check(content: str):
+    words = [w for w in content.split() if w.isalpha()]
+    avg_word_len = sum(len(w) for w in words) / len(words) if words else 0
     return {
-        "factor": "Unique Words Count",
-        "score": len(unique_words)
+        "factor": "Average Word Length",
+        "value": round(avg_word_len, 2)
     }

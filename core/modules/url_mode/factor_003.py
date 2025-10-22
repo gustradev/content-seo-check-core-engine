@@ -1,9 +1,9 @@
+# core/modules/url_mode/factor_003.py
 from bs4 import BeautifulSoup
 
 def check(html):
-    soup = BeautifulSoup(html, 'html.parser')
-    links = soup.find_all('a')
+    soup = BeautifulSoup(html, "html.parser")
     return {
-        "factor": "Number of Links",
-        "score": len(links)
+        "factor": "H1 Tag Count",
+        "value": len(soup.find_all("h1"))
     }

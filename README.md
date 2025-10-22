@@ -60,6 +60,70 @@ venv\Scripts\activate      # Windows
 
 # Install dependencies
 pip install -r requirements.txt
+
+That's an excellent project structure! To ensure your requirements.txt is complete for all the developed "Text Mode" factors (F015 through F050), and to follow modern Python practice, I'll update it to include the specific packages and the crucial data file dependencies.
+
+Here is the updated and consolidated requirements.txt:
+
+Plaintext
+
+# Web scraping & HTML parsing
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# HTTP requests
+requests==2.31.0
+
+# Frameworks and API
+flask
+flask-cors
+fastapi
+uvicorn
+gunicorn
+pydantic
+
+# --- Data Handling & Core Analysis ---
+pandas
+numpy
+
+# --- Text Analysis & NLP ---
+# NLTK base library (used for tokenization, stopwords, etc.)
+nltk==3.8.1
+# SpaCy base library (used for F015)
+spacy
+# The specific SpaCy English model data package
+en-core-web-sm
+# For Keyword Distribution (F035) and other numeric proxies
+numpy # Already listed above, but crucial here
+# For robust spell checking (recommended for F041, though currently proxied)
+pyspellchecker
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Optional: Pretty-print JSON results (for development)
+rich==13.5.2
+⚠️ Action Required Post-Installation
+The most critical step for the engine's NLP factors (F015, F029, F031, F045, etc.) to function is ensuring the necessary data files are downloaded and linked.
+
+After running pip install -r requirements.txt, your users must run these commands:
+
+1. SpaCy Model Installation
+This command downloads the large English model file required by factor_015.py:
+
+Bash
+
+python -m spacy download en_core_web_sm
+2. NLTK Data Downloads
+These commands download the necessary tokenization, punctuation, and stopwords data for multiple readability and keyword factors:
+
+Bash
+
+# Downloads sentence tokenizer data (required for F029, F031, F044, F050)
+python -c "import nltk; nltk.download('punkt')"
+
+# Downloads the English stopwords list (required for F037, F045)
+python -c "import nltk; nltk.download('stopwords')"
 ```
 
 ## Usage

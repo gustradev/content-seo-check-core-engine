@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
-from bs4 import BeautifulSoup
 from core.analyzer import run_analysis
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
+
 
 # --- Health Check ---
 @app.route("/")
@@ -41,21 +41,32 @@ def analyze_content():
                     "details": str(e)
                 }), 400
 
-        # Run core analyzer
+        # --- Run Core Analyzer ---
         results = run_analysis(content=content, html=html, mode=mode)
 
-        # Aggregate base metrics
-        avg_score = sum(r.get("score", 0) for r in results) / max(len(results), 1)
-        avg_readability = sum(r.get("readability", 0) for r in results) / max(len(results), 1)
+        # --- Handle empty or failed results gracefully ---
+        if not results or (isinstance(results, list) and "error" in results[0]):
+            return jsonify({
+                "error": "Analyzer returned no valid results.",
+                "details": results
+            }), 500
 
-        # Build response
+        # --- Aggregate basic metrics ---
+        avg_score = sum(r.get("score", 0) for r in results if isinstance(r, dict)) / max(len(results), 1)
+        # Some modules may not have readability → skip average_readability
+        avg_readability = (
+            sum(r.get("readability", 0) for r in results if r.get("readability") is not None)
+            / max(len([r for r in results if r.get("readability") is not None]), 1)
+        )
+
+        # --- Build JSON response ---
         response = {
             "version": "core-v1.0",
             "mode": mode,
             "factors_analyzed": len(results),
-            "semantic_score": round(avg_score, 3),
-            "readability": round(avg_readability, 1),
-            "results": results  # Detailed results from each module
+            "semantic_score": round(avg_score, 2),
+            "readability": round(avg_readability, 2),
+            "results": results
         }
 
         return jsonify(response)
