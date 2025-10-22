@@ -1,15 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
-import spacy
-from spacy.cli import download
-
-# Download model if missing
-download("en_core_web_sm")
-
-# Load the model globally
-nlp = spacy.load("en_core_web_sm")
-
 from core.analyzer import run_analysis
 
 app = Flask(__name__)
@@ -74,8 +65,5 @@ def analyze_content():
 
 
 # --- Run Server ---
-# --- Run Server ---
 if __name__ == "__main__":
-    import os
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(host="0.0.0.0", port=5000)
