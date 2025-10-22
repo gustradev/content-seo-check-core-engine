@@ -2,8 +2,15 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
 import spacy
-nlp = spacy.load("en_core_web_sm")
+from spacy.cli import download
+import importlib.util
 
+# Download model if missing
+if importlib.util.find_spec("en_core_web_sm") is None:
+    download("en_core_web_sm")
+
+# Load the model
+nlp = spacy.load("en_core_web_sm")
 from core.analyzer import run_analysis
 
 app = Flask(__name__)

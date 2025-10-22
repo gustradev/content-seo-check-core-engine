@@ -9,5 +9,4 @@ python-dotenv
 pyspellchecker
 rich
 gunicorn
-# NLP
-en-core-web-sm==3.8.0
+
