@@ -2,11 +2,6 @@ import os
 import importlib
 import pandas as pd
 import math
-import spacy
-from spacy.cli import download
-
-download("en_core_web_sm")
-nlp = spacy.load("en_core_web_sm")
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
