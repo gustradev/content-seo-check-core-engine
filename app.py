@@ -1,6 +1,9 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import requests
+import spacy
+nlp = spacy.load("en_core_web_sm")
+
 from core.analyzer import run_analysis
 
 app = Flask(__name__)
